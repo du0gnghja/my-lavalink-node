@@ -6,7 +6,7 @@ lavalink:
     - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.4"
       repository: "https://maven.lavalink.dev/releases"
   server:
-    password: "duongnghia1710" # Bạn có thể đổi mật khẩu này nếu muốn
+    password: "youshallnotpass" # Bạn có thể đổi mật khẩu này nếu muốn
     sources:
       youtube: false
       bandcamp: true
