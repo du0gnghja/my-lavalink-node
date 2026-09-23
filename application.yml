@@ -1,0 +1,37 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+lavalink:
+  plugins:
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.4"
+      repository: "https://maven.lavalink.dev/releases"
+  server:
+    password: "duongnghia1710" # Bạn có thể đổi mật khẩu này nếu muốn
+    sources:
+      youtube: false
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false
+    bufferDurationMs: 400
+    frameBufferDurationMs: 5000
+    youtubeSearchEnabled: true
+    soundcloudSearchEnabled: true
+    gc-warnings: false
+
+metrics:
+  prometheus:
+    enabled: false
+
+sentry:
+  dsn: ""
+
+logging:
+  file:
+    path: ./logs/lavalink.log
+
+  level:
+    root: INFO
+    lavalink: INFO
